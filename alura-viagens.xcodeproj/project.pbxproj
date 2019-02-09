@@ -12,6 +12,10 @@
 		AF4A249A220E4FC2009F7957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4A2498220E4FC2009F7957 /* Main.storyboard */; };
 		AF4A249C220E4FC4009F7957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4A249B220E4FC4009F7957 /* Assets.xcassets */; };
 		AF4A249F220E4FC4009F7957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4A249D220E4FC4009F7957 /* LaunchScreen.storyboard */; };
+		AF4A24A7220E5EC5009F7957 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4A24A6220E5EC5009F7957 /* Viagem.swift */; };
+		AF4A24A9220E5F96009F7957 /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */; };
+		AF4A24AB220E6129009F7957 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4A24AA220E6129009F7957 /* TableViewCell.swift */; };
+		AF4A24AD220E6583009F7957 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = AF4A24AC220E6583009F7957 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AF4A249B220E4FC4009F7957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4A249E220E4FC4009F7957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4A24A0220E4FC4009F7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4A24A6220E5EC5009F7957 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
+		AF4A24AA220E6129009F7957 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AF4A24AC220E6583009F7957 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		AF4A2493220E4FC2009F7957 /* alura-viagens */ = {
 			isa = PBXGroup;
 			children = (
+				AF4A24AC220E6583009F7957 /* Assets */,
 				AF4A2494220E4FC2009F7957 /* AppDelegate.swift */,
 				AF4A2496220E4FC2009F7957 /* ViewController.swift */,
+				AF4A24A6220E5EC5009F7957 /* Viagem.swift */,
+				AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */,
+				AF4A24AA220E6129009F7957 /* TableViewCell.swift */,
 				AF4A2498220E4FC2009F7957 /* Main.storyboard */,
 				AF4A249B220E4FC4009F7957 /* Assets.xcassets */,
 				AF4A249D220E4FC4009F7957 /* LaunchScreen.storyboard */,
@@ -123,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4A249F220E4FC4009F7957 /* LaunchScreen.storyboard in Resources */,
+				AF4A24AD220E6583009F7957 /* Assets in Resources */,
 				AF4A249C220E4FC4009F7957 /* Assets.xcassets in Resources */,
 				AF4A249A220E4FC2009F7957 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4A24AB220E6129009F7957 /* TableViewCell.swift in Sources */,
 				AF4A2497220E4FC2009F7957 /* ViewController.swift in Sources */,
+				AF4A24A7220E5EC5009F7957 /* Viagem.swift in Sources */,
 				AF4A2495220E4FC2009F7957 /* AppDelegate.swift in Sources */,
+				AF4A24A9220E5F96009F7957 /* ViagemDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
