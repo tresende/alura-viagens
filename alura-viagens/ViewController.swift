@@ -1,20 +1,24 @@
-//
-//  ViewController.swift
-//  alura-viagens
-//
-//  Created by Thiago Resende on 2/8/19.
-//  Copyright © 2019 Thiago Resende. All rights reserved.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDataSource {
+    let listaViagens:Array<String> = ["Rio de Janeiro", "Ceará","São Paulo"]
+    
+    @IBOutlet weak var tabelaViagens: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.tabelaViagens.dataSource = self
     }
 
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return listaViagens.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celula", for: indexPath)
+        cell.textLabel?.text = listaViagens[indexPath.row]
+        return cell
+    }
+    
 }
 
