@@ -66,8 +66,6 @@
 				AF539F192210E2BC00DD749A /* Model */,
 				AF539F1C2210E3DF00DD749A /* Home */,
 				AF4A24AC220E6583009F7957 /* Assets */,
-				AF4A2496220E4FC2009F7957 /* ViewController.swift */,
-				AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */,
 				AF4A2498220E4FC2009F7957 /* Main.storyboard */,
 				AF4A249B220E4FC4009F7957 /* Assets.xcassets */,
 				AF4A249D220E4FC4009F7957 /* LaunchScreen.storyboard */,
@@ -87,9 +85,35 @@
 		AF539F1C2210E3DF00DD749A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AF4A24AA220E6129009F7957 /* TableViewCell.swift */,
+				AF539F1F2210E59F00DD749A /* ViagemDAO */,
+				AF539F1E2210E46C00DD749A /* View */,
+				AF539F1D2210E45600DD749A /* Controller */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		AF539F1D2210E45600DD749A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A2496220E4FC2009F7957 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF539F1E2210E46C00DD749A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A24AA220E6129009F7957 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF539F1F2210E59F00DD749A /* ViagemDAO */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */,
+			);
+			path = ViagemDAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
