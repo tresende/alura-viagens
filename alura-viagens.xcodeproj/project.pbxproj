@@ -62,10 +62,10 @@
 		AF4A2493220E4FC2009F7957 /* alura-viagens */ = {
 			isa = PBXGroup;
 			children = (
+				AF539F192210E2BC00DD749A /* Model */,
 				AF4A24AC220E6583009F7957 /* Assets */,
 				AF4A2494220E4FC2009F7957 /* AppDelegate.swift */,
 				AF4A2496220E4FC2009F7957 /* ViewController.swift */,
-				AF4A24A6220E5EC5009F7957 /* Viagem.swift */,
 				AF4A24A8220E5F95009F7957 /* ViagemDAO.swift */,
 				AF4A24AA220E6129009F7957 /* TableViewCell.swift */,
 				AF4A2498220E4FC2009F7957 /* Main.storyboard */,
@@ -74,6 +74,14 @@
 				AF4A24A0220E4FC4009F7957 /* Info.plist */,
 			);
 			path = "alura-viagens";
+			sourceTree = "<group>";
+		};
+		AF539F192210E2BC00DD749A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A24A6220E5EC5009F7957 /* Viagem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
